@@ -1,0 +1,1193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(Images/background.png);
+}
+.head-bar{
+    display: flex;
+    background: rgb(241, 241, 241);
+    padding: 10px;    
+    text-align: center;
+    height: 50px;
+    justify-content: space-between;
+}
+.head-bar .logo h2{
+    padding-left: 20px;
+    padding-top: 8px;
+}
+.head-bar .navigation ul{
+    display: flex;
+    margin: 5px;
+    list-style: none;
+}
+.head-bar .navigation ul li{
+    padding-left: 10px;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+.head-bar .navigation ul li:hover{
+    background-color: #a4a4a4;
+    transition: all 0.5s ease-in-out;
+}
+.head-bar .support{
+    display: flex;
+    justify-content: space-between;
+}
+.head-bar .support .text{
+    color: black;
+    padding-right: 20px;
+    padding-top: 8px;
+}
+.head-bar .support .btn button{
+    padding: 5px;
+    width: 80px;
+    border: 2px solid gray;
+    background-color: orange;
+    color: black;
+    border-radius: 30px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.head-bar .support .btn button:hover{
+    background-color: rgb(91, 59, 0);
+    color: antiquewhite;
+    transition: all 0.5s ease-in-out;
+}
+.title h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.stamp img{
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-right: 200px;
+}
+.section-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.section-1 .sec-first{
+    display: flex;
+    /* margin-top: 100px; */
+    justify-content: space-between;
+}
+.section-1 .sec-first .image-1 {
+    width: 400px;
+    background-image: url(Images/img-1extra.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    
+}
+.section-1 .sec-first .image-1 h2{
+    margin-left: 30px;
+    margin-top: 190px;
+    color: rgb(118, 118, 118);
+}
+
+.section-1 .sec-first .image-1 h3{
+    margin-left: 30px;
+    color: rgb(142, 142, 142);
+}
+
+
+.section-1 .sec-first .image-2 h2{
+    margin-left: 30px;
+    margin-top: 190px;
+    color: rgb(255, 255, 255);
+}
+
+.section-1 .sec-first .image-2 h3{
+    margin-left: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.section-1 .sec-first .image-2{
+    width: 400px;
+    height: 300px;
+    margin-left: 30px;
+    background-size: cover;
+    background-image: url(Images/img-2.jpg);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.section-1 .information-1 p{
+    margin-right: 300px;
+}
+.section-1 .information-1 button{
+    padding: 10px;
+    width: 250px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+#explore-btn{
+    background-color: orange;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+}
+#create-btn{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.brands{
+    margin-top: 50px;
+    padding-left: 400px;
+    padding-right: 400px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.brands .hm img{
+    width: 50px;
+    height: 50px;
+}
+
+.brands .obey img{
+    width: 50px;
+    height: 50px;
+}
+
+
+.brands .shopify img{
+    width: 130px;
+    height: 110px;
+}
+
+.brands .lacoste img{
+    width: 120px;
+    height: 50px;
+}
+
+
+.brands .levi img{
+    width: 100px;
+    height: 100px;
+}
+
+.brands .amazon img{
+    width: 80px;
+    height: 40px;
+}
+#unique-brand{
+    padding-top: 25px;
+}
+.information-2 .slogan{
+    background-image: url(Images/img-3-extra-3.jpg);
+    width: 80%;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.information-2 .slogan h1{
+    padding-top: 250px;
+    color: white;
+    font-size: 60px;
+}
+
+
+#explore-btn-2{
+    background-color: orange;
+    color: black;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+.section-five{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.section-five .section-5-text h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+#btn-2{
+    padding-top: 20px;
+
+}
+.section-five .create-btn-2 button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    border-radius: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.unisex-collection{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.unisex-collection .men-collection{
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 300px;
+    /* margin-left: 50px; */
+    background-image: url(Images/mens-collection2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.unisex-collection .men-collection h3{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+
+.unisex-collection .women-collection{
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 300px;
+    /* margin-right: 50px; */
+    background-image: url(Images/womens-collection2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.unisex-collection .women-collection h3{
+    padding-top: 250px;
+    padding-left: 20px;
+}
+.unisex-collection-2{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-right: 20px; */
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
+.unisex-collection-2 .shoe-collection{
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 300px;
+    /* margin-left: 50px; */
+    background-image: url(Images/shoe-collection.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.unisex-collection-2 .shoe-collection h3{
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+
+.unisex-collection-2 .watch-collection{
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 300px;
+    /* margin-left: 50px; */
+    background-image: url(Images/watch-collection.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.unisex-collection-2 .watch-collection h3{
+    padding-top: 250px;
+    padding-left: 30px;
+}
+
+
+.section-eight{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.section-eight .section-8-text h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+#btn-3{
+    padding-top: 20px;
+
+}
+.section-eight .create-btn-3 button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    border-radius: 30px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.wear-collect{
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+}
+
+.wear-collect .shirt-section-1{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+.wear-collect .shirt-section-1 .shirt-image-1 img{
+    width: 100%;
+    height: 310px;
+    border: 2px solid rgba(128, 128, 128, 0.235);
+    border-radius: 10px;
+}
+
+.wear-collect .shirt-section-1 .details-part-1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.wear-collect .shirt-section-1 .details-part-1 .sub-details-a-1{
+    display: flex;
+    justify-content: space-between;
+}
+.wear-collect .shirt-section-1 .details-part-1 .sub-details-a-1 .sub-text-a-1{
+    font-weight: 800;
+}
+
+.wear-collect .shirt-section-1 .details-part-1 .sub-details-b-1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+.wear-collect .shirt-section-1 .details-part-1 .sub-details-b-1 .sub-text-b-1{
+    font-size: 17px;
+}
+.wear-collect .shirt-section-1 .details-part-1 .sub-details-b-1 .review-1{
+    color: #575757;
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+
+.wear-collect .shirt-section-1 .details-part-1 .sub-details-c-1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.wear-collect .shirt-section-1 .details-part-1 .sub-details-c-1 .add-to-cart-1 button{
+    padding: 5px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+}
+.wear-collect .shirt-section-1 .details-part-1 .sub-details-c-1 .buy-1 button{
+    padding: 5px;
+    border: none;
+    width: 80px;
+    border-radius: 30px;
+    color: black;
+    background-color: orange;
+}
+
+
+/* =================================================*/
+
+
+.wear-collect .shirt-section-2{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+.wear-collect .shirt-section-2 .shirt-image-2 img{
+    width: 100%;
+    height: 310px;
+    border: 2px solid rgba(128, 128, 128, 0.235);
+    border-radius: 10px;
+}
+
+.wear-collect .shirt-section-2 .details-part-2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.wear-collect .shirt-section-2 .details-part-2 .sub-details-a-2{
+    display: flex;
+    justify-content: space-between;
+}
+.wear-collect .shirt-section-2 .details-part-2 .sub-details-a-2 .sub-text-a-2{
+    font-weight: 800;
+}
+
+.wear-collect .shirt-section-2 .details-part-2 .sub-details-b-2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+.wear-collect .shirt-section-2 .details-part-2 .sub-details-b-2 .sub-text-b-2{
+    font-size: 17px;
+}
+.wear-collect .shirt-section-2 .details-part-2 .sub-details-b-2 .review-2{
+    color: #575757;
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+
+.wear-collect .shirt-section-2 .details-part-2 .sub-details-c-2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.wear-collect .shirt-section-2 .details-part-2 .sub-details-c-2 .add-to-cart-2 button{
+    padding: 5px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+}
+.wear-collect .shirt-section-2 .details-part-2 .sub-details-c-2 .buy-2 button{
+    padding: 5px;
+    border: none;
+    width: 80px;
+    border-radius: 30px;
+    color: black;
+    background-color: orange;
+}
+
+
+
+/* =================================================*/
+
+
+.wear-collect .shirt-section-3{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+.wear-collect .shirt-section-3 .shirt-image-3 img{
+    width: 270px;
+    height: 310px;
+    border: 2px solid rgba(128, 128, 128, 0.235);
+    border-radius: 10px;
+}
+
+.wear-collect .shirt-section-3 .details-part-3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+.wear-collect .shirt-section-3 .details-part-3 .sub-details-a-3{
+    display: flex;
+    justify-content: space-between;
+}
+.wear-collect .shirt-section-3 .details-part-3 .sub-details-a-3 .sub-text-a-3{
+    font-weight: 800;
+}
+
+.wear-collect .shirt-section-3 .details-part-3 .sub-details-b-3{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+.wear-collect .shirt-section-3 .details-part-3 .sub-details-b-3 .sub-text-b-3{
+    font-size: 17px;
+}
+.wear-collect .shirt-section-3 .details-part-3 .sub-details-b-3 .review-3{
+    color: #575757;
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+
+.wear-collect .shirt-section-3 .details-part-3 .sub-details-c-3{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.wear-collect .shirt-section-3 .details-part-3 .sub-details-c-3 .add-to-cart-3 button{
+    padding: 5px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+}
+.wear-collect .shirt-section-3 .details-part-3 .sub-details-c-3 .buy-3 button{
+    padding: 5px;
+    border: none;
+    width: 80px;
+    border-radius: 30px;
+    color: black;
+    background-color: orange;
+}
+
+
+
+/* =================================================*/
+
+
+.wear-collect .shirt-section-4{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+.wear-collect .shirt-section-4 .shirt-image-4 img{
+    width: 270px;
+    height: 310px;
+    border: 2px solid rgba(128, 128, 128, 0.235);
+    border-radius: 10px;
+}
+
+.wear-collect .shirt-section-4 .details-part-4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+.wear-collect .shirt-section-4 .details-part-4 .sub-details-a-4{
+    display: flex;
+    justify-content: space-between;
+}
+.wear-collect .shirt-section-4 .details-part-4 .sub-details-a-4 .sub-text-a-4{
+    font-weight: 800;
+}
+
+.wear-collect .shirt-section-4 .details-part-4 .sub-details-b-4{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+.wear-collect .shirt-section-4 .details-part-4 .sub-details-b-4 .sub-text-b-4{
+    font-size: 17px;
+}
+.wear-collect .shirt-section-4 .details-part-4 .sub-details-b-4 .review-4{
+    color: #575757;
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+
+.wear-collect .shirt-section-4 .details-part-4 .sub-details-c-4{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.wear-collect .shirt-section-4 .details-part-4 .sub-details-c-4 .add-to-cart-4 button{
+    padding: 5px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+}
+.wear-collect .shirt-section-4 .details-part-4 .sub-details-c-4 .buy-4 button{
+    padding: 5px;
+    border: none;
+    width: 80px;
+    border-radius: 30px;
+    color: black;
+    background-color: orange;
+}
+
+
+/* Section - 10 */
+
+
+.wear-collect-1{
+    display: flex;
+    margin: 50px;
+    justify-content: space-between;
+}
+
+.wear-collect-1 .shirt-section-1-1{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+.wear-collect-1 .shirt-section-1-1 .shirt-image-1-1 img{
+    width: 270px;
+    height: 310px;
+    border: 2px solid rgba(128, 128, 128, 0.235);
+    border-radius: 10px;
+}
+
+.wear-collect-1 .shirt-section-1-1 .details-part-1-1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.wear-collect-1 .shirt-section-1-1 .details-part-1-1 .sub-details-a-1-1{
+    display: flex;
+    justify-content: space-between;
+}
+.wear-collect-1 .shirt-section-1-1 .details-part-1-1 .sub-details-a-1-1 .sub-text-a-1-1{
+    font-weight: 800;
+}
+
+.wear-collect-1 .shirt-section-1-1 .details-part-1-1 .sub-details-b-1-1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+.wear-collect-1 .shirt-section-1-1 .details-part-1-1 .sub-details-b-1-1 .sub-text-b-1-1{
+    font-size: 17px;
+}
+.wear-collect-1 .shirt-section-1-1 .details-part-1-1 .sub-details-b-1-1 .review-1-1{
+    color: #575757;
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+
+.wear-collect-1 .shirt-section-1-1 .details-part-1-1 .sub-details-c-1-1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.wear-collect-1 .shirt-section-1-1 .details-part-1-1 .sub-details-c-1-1 .add-to-cart-1-1 button{
+    padding: 5px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+}
+.wear-collect-1 .shirt-section-1-1 .details-part-1-1 .sub-details-c-1-1 .buy-1-1 button{
+    padding: 5px;
+    border: none;
+    width: 80px;
+    border-radius: 30px;
+    color: black;
+    background-color: orange;
+}
+
+
+/* =========================================================================================== */
+
+
+
+.wear-collect-1 .shirt-section-1-2{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+.wear-collect-1 .shirt-section-1-2 .shirt-image-1-2 img{
+    width: 100%;
+    height: 310px;
+    border: 2px solid rgba(128, 128, 128, 0.235);
+    border-radius: 10px;
+}
+
+.wear-collect-1 .shirt-section-1-2 .details-part-1-2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.wear-collect-1 .shirt-section-1-2 .details-part-1-2 .sub-details-a-1-2{
+    display: flex;
+    justify-content: space-between;
+}
+.wear-collect-1 .shirt-section-1-2 .details-part-1-2 .sub-details-a-1-2 .sub-text-a-1-2{
+    font-weight: 800;
+}
+
+.wear-collect-1 .shirt-section-1-2 .details-part-1-2 .sub-details-b-1-2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+.wear-collect-1 .shirt-section-1-2 .details-part-1-2 .sub-details-b-1-2 .sub-text-b-1-2{
+    font-size: 17px;
+}
+.wear-collect-1 .shirt-section-1-2 .details-part-1-2 .sub-details-b-1-2 .review-1-2{
+    color: #575757;
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+
+.wear-collect-1 .shirt-section-1-2 .details-part-1-2 .sub-details-c-1-2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.wear-collect-1 .shirt-section-1-2 .details-part-1-2 .sub-details-c-1-2 .add-to-cart-1-2 button{
+    padding: 5px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+}
+.wear-collect-1 .shirt-section-1-2 .details-part-1-2 .sub-details-c-1-2 .buy-1-2 button{
+    padding: 5px;
+    border: none;
+    width: 80px;
+    border-radius: 30px;
+    color: black;
+    background-color: orange;
+}
+
+
+
+
+/* =========================================================================================== */
+
+
+
+.wear-collect-1 .shirt-section-1-3{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+.wear-collect-1 .shirt-section-1-3 .shirt-image-1-3 img{
+    width: 100%;
+    height: 310px;
+    border: 2px solid rgba(128, 128, 128, 0.235);
+    border-radius: 10px;
+}
+
+.wear-collect-1 .shirt-section-1-3 .details-part-1-3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.wear-collect-1 .shirt-section-1-3 .details-part-1-3 .sub-details-a-1-3{
+    display: flex;
+    justify-content: space-between;
+}
+.wear-collect-1 .shirt-section-1-3 .details-part-1-3 .sub-details-a-1-3 .sub-text-a-1-3{
+    font-weight: 800;
+}
+
+.wear-collect-1 .shirt-section-1-3 .details-part-1-3 .sub-details-b-1-3{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+.wear-collect-1 .shirt-section-1-3 .details-part-1-3 .sub-details-b-1-3 .sub-text-b-1-3{
+    font-size: 17px;
+}
+.wear-collect-1 .shirt-section-1-3 .details-part-1-3 .sub-details-b-1-3 .review-1-3{
+    color: #575757;
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+
+.wear-collect-1 .shirt-section-1-3 .details-part-1-3 .sub-details-c-1-3{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.wear-collect-1 .shirt-section-1-3 .details-part-1-3 .sub-details-c-1-3 .add-to-cart-1-3 button{
+    padding: 5px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+}
+.wear-collect-1 .shirt-section-1-3 .details-part-1-3 .sub-details-c-1-3 .buy-1-3 button{
+    padding: 5px;
+    border: none;
+    width: 80px;
+    border-radius: 30px;
+    color: black;
+    background-color: orange;
+}
+
+
+
+
+
+/* =========================================================================================== */
+
+
+
+.wear-collect-1 .shirt-section-1-4{
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+}
+.wear-collect-1 .shirt-section-1-4 .shirt-image-1-4 img{
+    width: 100%;
+    height: 310px;
+    border: 2px solid rgba(128, 128, 128, 0.235);
+    border-radius: 10px;
+}
+
+.wear-collect-1 .shirt-section-1-4 .details-part-1-4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.wear-collect-1 .shirt-section-1-4 .details-part-1-4 .sub-details-a-1-4{
+    display: flex;
+    justify-content: space-between;
+}
+.wear-collect-1 .shirt-section-1-4 .details-part-1-4 .sub-details-a-1-4 .sub-text-a-1-4{
+    font-weight: 800;
+}
+
+.wear-collect-1 .shirt-section-1-4 .details-part-1-4 .sub-details-b-1-4{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+.wear-collect-1 .shirt-section-1-4 .details-part-1-4 .sub-details-b-1-4 .sub-text-b-1-4{
+    font-size: 17px;
+}
+.wear-collect-1 .shirt-section-1-4 .details-part-1-4 .sub-details-b-1-4 .review-1-4{
+    color: #575757;
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+
+.wear-collect-1 .shirt-section-1-4 .details-part-1-4 .sub-details-c-1-4{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+.wear-collect-1 .shirt-section-1-4 .details-part-1-4 .sub-details-c-1-4 .add-to-cart-1-4 button{
+    padding: 5px;
+    width: 150px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+}
+.wear-collect-1 .shirt-section-1-4 .details-part-1-4 .sub-details-c-1-4 .buy-1-4 button{
+    padding: 5px;
+    border: none;
+    width: 80px;
+    border-radius: 30px;
+    color: black;
+    background-color: orange;
+}
+
+.section-11{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 30px ;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.section-11 .contact-text h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.section-11 .stamp-2 img{
+    width: 100px;
+    height: 100px;
+    float: right;
+    /* padding-top: 60px; */
+    margin-right: 200px;
+}
+
+.section-12{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.section-12 .front-end-pose img{
+    width: 400px;
+    border: 2px solid rgba(128, 128, 128, 0.436);
+    border-radius: 10px;
+}
+#mail-btn{
+    padding: 10px;
+    width: 100px;
+    font-size: 8px;
+    margin-bottom: 30px;
+    border: 2px solid gray;
+    background-color: orange;
+    color: black;
+    border-radius: 30px;
+}
+#end-heading{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+#end-paragraph{
+    color: #5d5d5d;
+}
+.section-12 .end-information .merge-btn{
+    display: flex;
+    margin-top: 30px;
+}
+.section-12 .end-information .merge-btn .mailing-btn button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    width: 300px;
+    background-color: black;
+    color: white;
+}
+
+
+.section-12 .end-information .merge-btn .mailing-btn button i{
+    padding-right:15px;
+}
+
+
+.section-12 .end-information .merge-btn .subscribe-btn button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 30px;
+    border: none;
+    width: 100px;
+    background-color: orange;
+    color: black;   
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.footer-section .address{
+    margin-top: 10px;
+    margin-left: 50px;
+    color: white;
+}
+.footer-section .address h2{
+font-size: 40px;
+font-weight: 400;
+
+}
+.footer-section .address h3{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.footer-section .footer-service{
+    display: flex;
+justify-content: space-evenly;
+color: white;
+margin-right: 200px;
+}
+
+.footer-section .footer-service .menu-table{
+    padding-right: 50px;
+}
+#th{
+    padding-bottom: 20px;
+    list-style: none;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+
+
+#th-2{
+    padding-bottom: 20px;
+    color: white;
+    list-style: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+#th-3{
+    padding-bottom: 20px;
+    color: white;
+    list-style: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+.footer-section .footer-service .menu-table ul{
+    list-style: none;
+    color: #a4a4a4;
+}
+.footer-section .footer-service .menu-table ul li{
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+/* =================================== */
+
+.footer-section .footer-service .social-table{
+    padding-right: 50px;
+}
+
+
+.footer-section .footer-service .social-table ul{
+    list-style: none;
+    color: #a4a4a4;
+}
+.footer-section .footer-service .social-table ul li{
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+
+
+/* =================================== */
+
+.footer-section .footer-service .help-table{
+    padding-right: 50px;
+}
+
+
+.footer-section .footer-service .help-table ul{
+    list-style: none;
+    color: #a4a4a4;
+}
+.footer-section .footer-service .help-table ul li{
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.last .copyrights h3{
+color: white;
+margin-left: 50px;
+font-size: small;
+font-weight: 200;
+}
+.last .social-media{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+.last .social-media .google-icon i{
+    padding-right: 20px;
+}
+
+.last .social-media .messenger-icon i{
+    padding-right: 20px;
+}
+
+.last .social-media .youtube-icon i{
+    padding-right: 20px;
+}
+
+.last .social-media .whatsapp-icon i{
+    padding-right: 20px;
+}
+
+
