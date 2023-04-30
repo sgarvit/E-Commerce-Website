@@ -1019,38 +1019,39 @@ body{
 #end-paragraph{
     color: #5d5d5d;
 }
-.section-12 .end-information .merge-btn{
+
+
+.section-12 .end-information button{
     display: flex;
-    margin-top: 30px;
-}
-.section-12 .end-information .merge-btn .mailing-btn button{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    height: 40px;
-    border-radius: 30px;
-    border: none;
+    margin-top: 30px;   
     width: 300px;
-    background-color: black;
+    border: none;
     color: white;
+    background-color: black;
+    border-radius: 30px;
+    justify-content: space-between;
 }
 
 
-.section-12 .end-information .merge-btn .mailing-btn button i{
-    padding-right:15px;
-}
-
-
-.section-12 .end-information .merge-btn .subscribe-btn button{
+.section-12 .end-information button .mailing-btn{
+    padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    height: 40px;
-    margin-left: 20px;
-    border-radius: 30px;
-    border: none;
-    width: 100px;
+} 
+
+
+.section-12 .end-information button .subscribe{
+    color: black;
     background-color: orange;
-    color: black;   
-}
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 30px;
+} 
+
+
 
 .footer-section{
     display: flex;
